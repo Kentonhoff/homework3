@@ -1,11 +1,10 @@
 body{
   font-family: "Quicksand", sans-serif;
-  font-size: 18px;
+  color: black;
   background-color: #dddddd;
   background-image: url("../images/pidgeon-background.jpg");
   background-repeat: no-repeat;
-  margin: 30px;
-  padding-bottom: 50px;
+  padding: 30px 30px 60px 30px;
 }
 h1{
   font-size: 2em;
@@ -27,10 +26,9 @@ a{
 }
 table{
   border: 2px solid black;
-  border-collapse: separate;
-  border-spacing: 0;
   border-radius: 10px;
-  text-align: center;
+  border-spacing: 0;
+  border-collapse: separate;
 }
 .colhead{
   min-width: 150px;
@@ -39,6 +37,7 @@ table{
   background-color: #7e0830;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 2px solid black;
 }
 td{
   padding: 15px;
@@ -47,6 +46,7 @@ td{
 }
 th{
   border-bottom: solid 2px black;
+  padding: 15px;
 }
 tr:last-child td:first-child{
   border-bottom-left-radius: 10px;
@@ -69,12 +69,6 @@ tr:hover{
 .colhead:last-child{
   border-top-right-radius: 10px
 }
-tr:last-child td{
-    border: none;
-}
-tr:last-child th{
-    border: none;
-  }
 footer{
   background-color: black;
   position: fixed;
