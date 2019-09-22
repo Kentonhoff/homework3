@@ -4,8 +4,8 @@ body{
   background-color: #dddddd;
   background-image: url("../images/pidgeon-background.jpg");
   background-repeat: no-repeat;
-  padding: 15px 15px 80px 15px;
-  font-size: 18px
+  padding-bottom: 60px;
+  margin: 10px
 }
 h1{
   font-size: 2em;
@@ -47,8 +47,6 @@ td{
 }
 th{
   border-bottom: solid 2px black;
-  padding: 15px;
-  text-align: center;
 }
 tr:last-child td:first-child{
   border-bottom-left-radius: 10px;
