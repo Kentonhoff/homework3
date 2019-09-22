@@ -5,6 +5,7 @@ body{
   background-image: url("../images/pidgeon-background.jpg");
   background-repeat: no-repeat;
   padding: 15px 15px 80px 15px;
+  font-size: 18px
 }
 h1{
   font-size: 2em;
